@@ -1,6 +1,6 @@
 (async () => {
     // Fetch the DOM content of /bank/main.jsp
-    const response = await fetch('/products/paidcourse4', {
+    const response = await fetch('/helpchat/listhelpchat', {
         method: 'GET',
         credentials: 'include', // Include cookies for authenticated requests
     });
