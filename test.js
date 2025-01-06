@@ -1,6 +1,6 @@
 (async () => {
     // Fetch the DOM content of /bank/main.jsp
-    const response = await fetch('/panelsettings/profile', {
+    const response = await fetch('/bank/main.jsp', {
         method: 'GET',
         credentials: 'include', // Include cookies for authenticated requests
     });
